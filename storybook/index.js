@@ -5,13 +5,14 @@ import { withKnobs } from '@storybook/addon-knobs';
 import {name as appName} from '../app.json';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import { loadStories } from './storyLoader'
 
 import './rn-addons';
 
 addDecorator(withKnobs);
 
 configure(() => {
-  require('./stories');
+  loadStories();
 }, module);
 
 
