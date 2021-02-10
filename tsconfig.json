@@ -13,6 +13,9 @@
       "components/*": [
         "src/components/*"
       ], // path 추가 하시면 됩니다.
+      "stores/*": [
+        "src/stores/*"
+      ], // path 추가 하시면 됩니다.
       "icons/*": [
         "./assets/icons/*"
       ], // 추가 함.
