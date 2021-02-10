@@ -18,7 +18,7 @@ export const Text = styled.Text<TypoGraphyProps>`
   font-weight: ${(props) => (props.bold ? 'bold' : 'normal')};
   color: ${(props) => (props.color ? props.color : 'black')};
 
-  /* xlg 35px*/
+  /* xlg 35px */
   ${(props) =>
     props.xlg &&
     css`
