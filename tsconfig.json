@@ -7,6 +7,12 @@
       "components/*": [
         "src/components/*"
       ],
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "screens/*": [
+        "src/screens/*"
+      ],
       "stores/*": [
         "src/stores/*"
       ],

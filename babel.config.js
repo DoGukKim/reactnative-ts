@@ -11,6 +11,7 @@ module.exports = {
 					'containers': './src/containers',
 					'screens': './src/screens',
 					'stores': './src/stores',
+					'layout': './src/layout',
 					'icons': 'assets/icons',
 					'images': 'assets/images',
 					'utils': './src/utils',
