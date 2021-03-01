@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
+import {StyleSheet} from 'react-native';
 
-const GlobalStyle = createGlobalStyle`
-  color: red;
-`;
-
-export default GlobalStyle;
+module.exports = StyleSheet.create({
+  reset: {
+    // font family
+  },
+});

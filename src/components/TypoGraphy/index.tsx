@@ -1,7 +1,7 @@
 import styled, {css} from 'styled-components/native';
 import {normalizeFontSize} from 'utils/size_config';
 
-type TypoGraphyProps = {
+type TypoGraphProps = {
   sm?: boolean;
   lg?: boolean;
   xlg?: boolean;
@@ -12,7 +12,7 @@ type TypoGraphyProps = {
 // 노멀라이즈 과정을 거친 것은 디바이스 마다 넓이가 다르기 때문에,
 // 폰트 자체에 반응적 요소를 적용한 것.
 
-export const Text = styled.Text<TypoGraphyProps>`
+export const Text = styled.Text<TypoGraphProps>`
   /* basic 16px */
   font-size: ${normalizeFontSize(18)}px;
   font-weight: ${(props) => (props.bold ? 'bold' : 'normal')};

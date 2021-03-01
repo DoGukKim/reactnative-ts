@@ -12,13 +12,11 @@ import {Text} from 'components/TypoGraphy';
 
 const App = () => {
   return (
-    <>
-      <SafeAreaView>
-        <View>
-          <Text>똑똑한 개발자</Text>
-        </View>
-      </SafeAreaView>
-    </>
+    <SafeAreaView>
+      <View>
+        <Text>디자인 시스템을 갖추기 위해 노력하는 개발자</Text>
+      </View>
+    </SafeAreaView>
   );
 };
 
